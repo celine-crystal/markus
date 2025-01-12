@@ -1,0 +1,37 @@
+{
+  "name": "markdown-editor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder"
+  },
+  "build": {
+    "appId": "com.markdown.editor.markus",
+    "productName": "Markus",
+    "linux": {
+      "target": [
+        "AppImage"
+      ],
+      "category": "Utility",
+      "icon": "imgs/icon.png"
+    }
+  },
+  "keywords": ["Markdown Editor"],
+  "author": "Jackson",
+  "license": "MIT",
+  "dependencies": {
+    "codemirror": "^5.65.18",
+    "highlight.js": "^11.11.1",
+    "katex": "^0.16.19",
+    "markdown-pdf": "^11.0.0",
+    "marked": "^15.0.5"
+  },
+  "devDependencies": {
+    "@types/codemirror": "^5.60.15",
+    "electron": "^33.2.1",
+    "electron-builder": "^25.1.8",
+    "electron-reload": "^2.0.0-alpha.1"
+  }
+}
