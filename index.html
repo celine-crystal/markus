@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Markus</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/markdown.css">
+    <link rel="stylesheet" href="css/codemirror/codemirror-5.65.9.min.css">
+    <link rel="stylesheet" href="css/katex/katex.min.css"> 
+    <link rel="stylesheet" id="highlightjs-theme" href="css/highlightjs/github-light.min.css">
+</head>
+<body class="light-theme">
+    <div id="search-modal" style="display: none;">
+        <div id="search-overlay"></div>
+        <div id="search-dialog">
+            <input type="text" id="search-input" placeholder="Enter search text" />
+            <button id="search-prev">←</button>
+            <button id="search-next">→</button>
+        </div>
+    </div>
+    <div id="action-area" style="display: none;">
+        <div class="sentence">Be Your Best Friends.</div>
+        <div class="btns">
+            <button id="create-file-btn" class="button-30">New File</button>
+            <button id="open-file-btn" class="button-30">Open File</button>
+        </div>
+    </div>
+    <div id="editor-container">
+        <div id="left-aside" style="display: block;">
+            <ul id="file-list"></ul>
+            <div id="global-search-results"></div>            
+        </div>
+        <textarea id="markdown-editor"></textarea>
+        <div id="preview" style="display: block;"></div>
+    </div>    
+    <script src="renderer.js"></script>
+</body>
+</html>
