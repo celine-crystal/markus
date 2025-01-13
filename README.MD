@@ -16,7 +16,19 @@ A feature-rich Markdown editor with a variety of useful features for a smooth wr
 - **Free**: The editor is completely free to use.
 
 ## Screenshot
+### Light Mode
+![Markdown Editor Screenshot](screenshot-light.png)
+
+### Dark Mode
 ![Markdown Editor Screenshot](screenshot-dark.png)
+
+
+
+## Build Icon
+
+```shell
+sudo ./node_modules/.bin/electron-icon-maker --input=/path/to/icon.png --output=/path/to/icons/
+```
 
 ## License
 
