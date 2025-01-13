@@ -81,7 +81,7 @@ app.on("ready", async () => {
     },
   });
   registerKeyMap(mainWindow);
-  mainWindow.loadFile("index.html");
+  mainWindow.loadFile("html/index.html");
 
   mainWindow.on("close", (event) => {
     if (isClosing) {
@@ -103,7 +103,7 @@ app.on("ready", async () => {
   });
 
   // dev only
-//   mainWindow.webContents.openDevTools();
+  mainWindow.webContents.openDevTools();
 
   // set context menu
   mainWindow.webContents.on("context-menu", (event, params) => {

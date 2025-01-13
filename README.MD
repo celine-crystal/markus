@@ -17,10 +17,10 @@ A feature-rich Markdown editor with a variety of useful features for a smooth wr
 
 ## Screenshot
 ### Light Mode
-![Markdown Editor Screenshot](screenshot-light.png)
+![Markdown Editor Screenshot](screenshot/screenshot-light.png)
 
 ### Dark Mode
-![Markdown Editor Screenshot](screenshot-dark.png)
+![Markdown Editor Screenshot](screenshot/screenshot-dark.png)
 
 ## Keyboard Shortcuts
 

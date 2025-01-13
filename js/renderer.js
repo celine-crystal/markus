@@ -921,10 +921,13 @@ ipcRenderer.on("change-highlight-theme", (event, highlightTheme) => {
 
 function setHighlightTheme(highlightTheme) {
   const highlightLink = document.getElementById("highlightjs-theme");
-  const cachedTheme = localStorage.getItem("theme") || "light"; 
-  const highlightThemeUrl = `css/highlightjs/${highlightTheme}-${cachedTheme}.min.css`;
-  highlightLink.href = highlightThemeUrl;
+  if(highlightLink){
+    const cachedTheme = localStorage.getItem("theme") || "light"; 
+    const highlightThemeUrl = `../css/highlightjs/${highlightTheme}-${cachedTheme}.min.css`;
+    console.log("highlightThemeUrl",highlightThemeUrl)
+    highlightLink.href = highlightThemeUrl;
+    localStorage.setItem("highlightTheme", highlightTheme);
+    hljs.highlightAll();
+  }
 
-  localStorage.setItem("highlightTheme", highlightTheme);
-  hljs.highlightAll();
 }
