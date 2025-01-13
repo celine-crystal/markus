@@ -22,6 +22,41 @@ A feature-rich Markdown editor with a variety of useful features for a smooth wr
 ### Dark Mode
 ![Markdown Editor Screenshot](screenshot-dark.png)
 
+## Keyboard Shortcuts
+
+Here are the available keyboard shortcuts for the editor:
+
+### Edit Mode
+- **Bold**: `Cmd + B` (Mac) / `Ctrl + B` (Windows/Linux)
+- **Italic**: `Cmd + Shift + I` (Mac) / `Ctrl + Shift + I` (Windows/Linux)
+- **Strikethrough**: `Cmd + Shift + S` (Mac) / `Ctrl + Shift + S` (Windows/Linux)
+- **Underline**: `Cmd + Shift + U` (Mac) / `Ctrl + Shift + U` (Windows/Linux)
+- **Code Block**: `Cmd + \`` (Mac) / `Ctrl + \`` (Windows/Linux)
+- **Inline Code**: `Cmd + Shift + \`` (Mac) / `Ctrl + Shift + \`` (Windows/Linux)
+
+### Lists & Structure
+- **Unordered List**: `Cmd + Shift + L` (Mac) / `Ctrl + Shift + L` (Windows/Linux)
+- **Ordered List**: `Cmd + Shift + O` (Mac) / `Ctrl + Shift + O` (Windows/Linux)
+- **Block Quote**: `Cmd + Shift + Q` (Mac) / `Ctrl + Shift + Q` (Windows/Linux)
+
+### Headings
+- **Heading 1**: `Cmd + Shift + 1` (Mac) / `Ctrl + Shift + 1` (Windows/Linux)
+- **Heading 2**: `Cmd + Shift + 2` (Mac) / `Ctrl + Shift + 2` (Windows/Linux)
+- **Heading 3**: `Cmd + Shift + 3` (Mac) / `Ctrl + Shift + 3` (Windows/Linux)
+- **Heading 4**: `Cmd + Shift + 4` (Mac) / `Ctrl + Shift + 4` (Windows/Linux)
+- **Heading 5**: `Cmd + Shift + 5` (Mac) / `Ctrl + Shift + 5` (Windows/Linux)
+- **Heading 6**: `Cmd + Shift + 6` (Mac) / `Ctrl + Shift + 6` (Windows/Linux)
+
+### Insertions
+- **Insert Link**: `Cmd + Shift + K` (Mac) / `Ctrl + Shift + K` (Windows/Linux)
+- **Insert Image**: `Cmd + Shift + P` (Mac) / `Ctrl + Shift + P` (Windows/Linux)
+
+### Other
+- **Undo**: `Cmd + Z` (Mac) / `Ctrl + Z` (Windows/Linux)
+- **Redo**: `Cmd + Shift + Z` (Mac) / `Ctrl + Shift + Z` (Windows/Linux)
+
+Use these shortcuts to quickly format and insert content in the editor!
+
 
 
 ## Build Icon
